@@ -92,9 +92,16 @@ figcaption
   
   .ocultar
     display: block
-    width: 70% !important
+    width: 100% !important
   .mostrar
     display: none
+
+  .quitar
+    display: none
+
+@media screen and (max-width: $bp-max-xs)
+  .w-75-movil
+    width: 75%
 
 
 ///////Full Width Background//////////
@@ -329,9 +336,14 @@ figcaption
   background-color: #FF9821 !important
 .bg-12
   background-color: #FBFBFB !important
+.bg-13
+  background-color: #78EEA3 !important
 
 .tabla-a th
-  background-color: #78EEA3 
+  background-color: #78EEA3
+  border: #0E3060 2px solid !important 
+.tabla-a td
+  border: #0E3060 2px solid !important 
 .tabla-a thead
   border-top: None !important
 

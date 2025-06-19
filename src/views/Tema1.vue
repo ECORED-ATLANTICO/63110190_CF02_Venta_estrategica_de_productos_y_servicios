@@ -23,9 +23,9 @@
         img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-lg-3.col-md-5.mb-4
+      .col-md-4.col-lg-3.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img_02.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img_02.png', alt='Imagen decorativa').mx-auto.w-75-movil
       .col-lg-9.mb-4
         p El servicio al cliente se entiende como el conjunto de actividades, comportamientos y actitudes que una empresa ofrece para satisfacer las necesidades y expectativas de sus clientes. Es un factor crucial para el éxito de cualquier negocio, ya que un buen servicio puede fidelizar a los clientes y generar recomendaciones, mientras que un mal servicio puede perjudicar la reputación de la empresa.
 
@@ -37,7 +37,7 @@
           .tarjeta.p-2
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-3
+                .col-md-12.col-lg-3.mb-4
                   h5 Ejemplo 1
                   p.mb-0 Una tienda <em>online</em> permite realizar devoluciones sin complicaciones, ofrece respuestas rápidas por chat y hace seguimiento personalizado para asegurar que el cliente quede satisfecho con su compra.
                 .col-md-12.col-lg-9.mb-4.mb-md-0
@@ -45,7 +45,7 @@
                     img(src='@/assets/curso/temas/tema1/img_03.png', alt='Imagen Decorativa')
                 
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-3
+                .col-md-12.col-lg-3.mb-4
                   h5 Ejemplo 2
                   p.mb-0 Un restaurante capacita a su personal para atender con amabilidad, resolver reclamos de inmediato y ofrecer cortesías cuando hay demoras, generando una experiencia positiva que motiva al cliente a volver.
                 .col-md-12.col-lg-9.mb-4.mb-md-0
@@ -53,7 +53,7 @@
                     img(src='@/assets/curso/temas/tema1/img_04.png', alt='Imagen Decorativa')
                 
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-3
+                .col-md-12.col-lg-3.mb-4
                   h5 Ejemplo 3
                   p.mb-0 Una empresa de telefonía llama a sus clientes después de instalar un servicio para verificar que todo funcione correctamente, escucha sugerencias y ofrece mejoras adaptadas a su perfil de consumo.
                 .col-md-12.col-lg-9.mb-4.mb-md-0
@@ -69,7 +69,7 @@
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
       .col-md-5.col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img_5_5.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img_5_5.png', alt='Imagen decorativa').quitar
       .col-lg-10
         p.mb-0 El ciclo de servicio al cliente describe el recorrido que realiza un cliente desde su primer contacto con la empresa hasta después de la compra. Cada etapa del ciclo debe ser gestionada cuidadosamente para garantizar la satisfacción del cliente.
 
@@ -83,7 +83,7 @@
 
         .tabla-a.tabla_verde
           table
-            caption <strong>Fuente:</strong> adaptado ecosistema SENA, 2025
+            caption <strong>Fuente:</strong> adaptado ecosistema SENA, 2025.
             thead
               tr
                 th.text-dark.w-10 Etapa
@@ -124,9 +124,9 @@
                   | - Ofrecimiento de servicios adicionales o nuevas ofertas
                 td.text-left Asegurar la satisfacción del cliente, fortalecer la relación comercial y fomentar la recompra o recomendación.
 
-      .col-md-5.col-lg-3.mt-auto.mb-3.arriba
+      .col-md-4.col-lg-3.mt-auto.mb-3.arriba
         figure
-          img(src='@/assets/curso/temas/tema1/img_06.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img_06.png', alt='Imagen decorativa').w-75-movil.mx-auto
 
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
@@ -162,7 +162,7 @@
 
           figcaption 
             b Fuente: 
-            |  Adaptado ecosistema SENA, 2025
+            |  Adaptado ecosistema SENA, 2025.
 
     separador
 
@@ -177,11 +177,11 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_09.png')})`}"
           )
-          .bloque-texto-g__texto.p-4.w-75
+          .bloque-texto-g__texto.p-4
             p Las estrategias de servicio al cliente se diseñan para mejorar la interacción con el cliente, aumentar su satisfacción y fidelización. Algunas de las principales estrategias incluyen:
 
     .row.justify-content-center.mb-4
-      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+      .col-10.col-md-12.col-lg-4.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img_10.svg' alt='AvatarTop')
           .tarjeta.bg-05.shadow
@@ -193,7 +193,7 @@
 
               p.text-center.mb-0 Ofrecer un servicio adaptado a las necesidades específicas de cada cliente. Ejemplo: una clínica odontológica asigna un asesor a cada paciente, quien conoce su historial, le recuerda sus citas y le recomienda tratamientos adecuados según su caso.
 
-      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-left")
+      .col-10.col-md-12.col-lg-4.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img_11.svg' alt='AvatarTop')
           .tarjeta.bg-09.shadow
@@ -204,7 +204,7 @@
                     p.mb-0 <b>Proactividad</b>
               p.text-center.mb-0 Anticiparse a las necesidades de los clientes y brindarles soluciones antes de que ellos tengan que solicitarlas. Ejemplo: una empresa de tecnología detecta que algunos usuarios tienen problemas con una actualización reciente, y les envía un tutorial personalizado antes de que presenten quejas.
 
-      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-left")
+      .col-10.col-md-12.col-lg-4.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img_12.svg' alt='AvatarTop')
           .tarjeta.bg-08.shadow
@@ -237,7 +237,7 @@
           .tarjeta.p-2
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-8
+                .col-md-12.col-lg-8.mb-4
                   h5 Escucha activa 
                   p.mb-2 La escucha activa va más allá de simplemente oír al cliente; implica prestar atención consciente, sin interrupciones, mostrando comprensión a través de gestos y palabras. Requiere concentración, contacto visual y retroalimentación verbal y no verbal.
                   p.mb-2 Según Robbins y Judge (2013), esta práctica fortalece la confianza entre las partes y permite comprender con mayor claridad las necesidades del cliente, lo que facilita brindar respuestas apropiadas y empáticas.
@@ -248,7 +248,7 @@
                     img(src='@/assets/curso/temas/tema1/img_14.png', alt='Imagen Decorativa')
 
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-8
+                .col-md-12.col-lg-8.mb-4
                   h5 Escucha activa 
                   p.mb-2 El lenguaje positivo consiste en utilizar expresiones amables y propositivas que favorecen un ambiente cordial y colaborativo. Frases como “será un placer ayudarle” o “buscaremos la mejor solución posible” transmiten profesionalismo y disposición, lo que mejora la experiencia del cliente y reduce posibles tensiones.
                   p.mb-2 Además, enfocar la comunicación en soluciones en lugar de problemas permite mantener una actitud proactiva. Según Kotler y Keller (2016), un trato cordial influye significativamente en la percepción del valor del servicio.
@@ -260,7 +260,7 @@
                     img(src='@/assets/curso/temas/tema1/img_15.png', alt='Imagen Decorativa')
                 
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-8
+                .col-md-12.col-lg-8.mb-4
                   h5 Escucha activa 
                   p.mb-2 La empatía implica comprender y conectar emocionalmente con otra persona, reconociendo sus sentimientos sin emitir juicios. En el contexto del servicio al cliente, se expresa al reconocer las emociones del usuario y responder con respeto y comprensión.
                   p.mb-2 Ser empático no implica estar necesariamente de acuerdo, sino validar la experiencia del cliente y mostrar disposición para ayudar. Como señala Goleman (2006), la empatía es una habilidad fundamental de la inteligencia emocional y clave para establecer relaciones humanas efectivas.

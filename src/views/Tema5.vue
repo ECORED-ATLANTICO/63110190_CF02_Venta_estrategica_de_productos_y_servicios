@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-12
-        .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.bg-04
+        .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.bg-13
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img_01.png')})`}"
           )
@@ -32,7 +32,7 @@
           .tarjeta.p-2
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-4
+                .col-md-12.col-lg-4.mb-4
                   h5 Venta  en frío	
                   p.mb-0 Esta técnica consiste en contactar a personas que no han mostrado interés previo en el producto o servicio. Es común en ventas telefónicas, visitas puerta a puerta o correos electrónicos masivos. Su objetivo es despertar el interés del cliente potencial a través de una primera interacción inesperada. (Dubinsky et al., 2020).
 
@@ -41,7 +41,7 @@
                     img(src='@/assets/curso/temas/tema5/img_02.png', alt='Imagen Decorativa')
                 
               .row.justify-content-center.align-items-center.my-lg-4.p-4
-                .col-md-12.col-lg-4
+                .col-md-12.col-lg-4.mb-4
                   h5 Up-selling (venta adicional)	
                   p.mb-0 El objetivo es incentivar al cliente a adquirir una versión superior del producto o servicio que inicialmente desea comprar. Esta técnica es útil para aumentar el valor promedio de venta, siempre que la propuesta sea percibida como una mejora relevante. (Jobber & Lancaster, 2017)
 
@@ -74,7 +74,7 @@
           .tabla-a
             table
               caption
-                strong Fuente: Kotler, P., & Armstrong, G. (2017)
+                strong Fuente: Kotler, P., & Armstrong, G. (2017).
               thead
                 tr
                   th.bg-color-4.text-white Tipo de Estrategia
@@ -112,7 +112,7 @@
     .row.justify-content-center.mb-2(data-aos="zoom-in")
       .col-lg-2.col-md-5.mb-4
         figure
-          img(src='@/assets/curso/temas/tema5/img_04.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img_04.svg', alt='Imagen decorativa').w-75-movil.mx-auto
       .col-lg-10.mb-4
         p En el mundo comercial, aplicar la técnica adecuada en el momento oportuno puede marcar la diferencia entre una venta ocasional y una relación comercial duradera. Por eso, es clave entender cuándo aplicar estrategias como la venta en frío o el up-selling, ya que cada una responde a contextos y objetivos distintos. Mientras una apunta a captar nuevos clientes desde cero, la otra busca maximizar el valor de quienes ya están interesados. A continuación, exploramos en qué escenarios resulta más efectiva cada una.
 
@@ -153,7 +153,7 @@
 
           figcaption 
             b Fuente: 
-            |  Adaptado ecosistema SENA, 2025
+            |  Adaptado ecosistema SENA, 2025.
 </template>
 
 <script>

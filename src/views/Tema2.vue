@@ -7,14 +7,14 @@
         span 2
       h1 Momentos de verdad
 
-    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-lg-12
-        .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.bg-verde
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img_01.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4.bg-transparent
-            p Un momento de verdad es importante porque define cómo el cliente percibe el servicio. En ese breve encuentro, la atención recibida puede generar confianza, satisfacción o, por el contrario, decepción. Cada contacto debe ser manejado con empatía y amabilidad para fortalecer la relación con el cliente.
+    .row.p-0.g-0
+      .col-12.mx-auto
+        .row.bg-verde.p-0.g-0.mb-5
+          .col-md-4(
+              :style="{'background': `url(${require('@/assets/curso/temas/tema2/img_01.png')}) right no-repeat`,'min-height':'100px','background-size':'cover'}"
+            )
+          .col-12.col-md-8.p-4
+            p.mb-0 Un momento de verdad es importante porque define cómo el cliente percibe el servicio. En ese breve encuentro, la atención recibida puede generar confianza, satisfacción o, por el contrario, decepción. Cada contacto debe ser manejado con empatía y amabilidad para fortalecer la relación con el cliente.
 
     separador
 
@@ -58,7 +58,7 @@
           .tabla-a
             table
               caption
-                strong Fuente: adaptado ecosistema SENA, 2025
+                strong Fuente: adaptado ecosistema SENA, 2025.
               thead
                 tr
                   th.text-white.w-22 Tipo

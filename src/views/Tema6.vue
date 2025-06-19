@@ -25,14 +25,14 @@
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-2.col-md-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema6/img_02.png', alt='Imagen decorativa').mx-auto
+          img(src='@/assets/curso/temas/tema6/img_02.svg', alt='Imagen decorativa').mx-auto.w-75-movil
       .col-lg-10.mb-4
         p La venta es un proceso de intercambio en el cual un vendedor ofrece un producto o servicio a un cliente a cambio de un valor, generalmente económico. No se trata únicamente de entregar un bien, sino de identificar necesidades, generar confianza y construir relaciones duraderas con el cliente. La venta efectiva combina técnicas de comunicación, conocimiento del producto y comprensión del comportamiento del consumidor para lograr resultados sostenibles (Kotler & Armstrong, 2018).
 
         .row.justify-content-center.align-items-center
           .col-lg-2.col-md-5.mb-4
             figure
-              img(src='@/assets/curso/temas/tema6/img_03.png', alt='Imagen decorativa').mx-auto
+              img(src='@/assets/curso/temas/tema6/img_03.png', alt='Imagen decorativa').mx-auto.quitar
 
           .col-lg-10.mb-4
             p Según Kotler y Armstrong (2017), las estrategias de venta efectivas integran el conocimiento del cliente, el dominio del producto y habilidades de comunicación. El objetivo no es simplemente cerrar una venta, sino ofrecer una experiencia de compra tan positiva que motive al cliente a volver.
@@ -100,7 +100,7 @@
 
           figcaption 
             b Fuente: 
-            |  SENA, 2025
+            |  SENA, 2025.
 
     separador
 
@@ -114,11 +114,11 @@
         p.mb-3 El diseño adecuado de una ruta de ventas permite al equipo comercial estructurar su labor diaria de forma más eficiente, asegurando que se prioricen los clientes según su potencial de compra, frecuencia de visita o ubicación. En consecuencia, estas rutas se convierten en una herramienta clave para la planificación estratégica de la gestión comercial (Blythe, 2012).
 
         .tarjeta.bg-03.p-3
-          .row.justify-content-center.align-items-center
-            .col-2
+          .row.justify-content-center.align-items-center.ordenar_div
+            .col-lg-2.col-md-3.mb-4
               figure
-                img(src='@/assets/curso/temas/tema6/img_10.png', alt='Imagen decorativa').mx-auto.w-50
-            .col-10
+                img(src='@/assets/curso/temas/tema6/img_010.svg', alt='Imagen decorativa').mx-auto.w-50
+            .col-lg-10.col-md-9
               p.mb-0 Para lograr una gestión comercial efectiva, es fundamental conocer las diferentes formas de acercarse al cliente. A continuación, se presentan los principales tipos de rutas en el proceso de venta:
 
       .col-lg-4.col-md-5.mb-4.arriba
@@ -171,7 +171,7 @@
 
           figcaption 
             b Fuente: 
-            |  SENA, 2025
+            |  SENA, 2025.
 
     separador
 
@@ -191,33 +191,37 @@
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
               .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_17.svg", alt="alt").img100.mx-auto
+                img(src="@/assets/curso/temas/tema6/img_17.svg", alt="alt").img100.mx-auto.mb-2
+                h4.text-white.bg-07.w-content.p-2.mx-auto Fase 1
             h5.text-center.mb-0 Prospección
             p.text-center.mb-0 Carlos asiste a una feria de agroindustria en Montería y encuentra una finca llamada Montebello, que cultiva aguacate de manera orgánica y ha ganado reconocimientos por su modelo sostenible. Anota sus datos y programa una visita.
 
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
               .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_18.svg", alt="alt").img100.mx-auto
+                img(src="@/assets/curso/temas/tema6/img_18.svg", alt="alt").img100.mx-auto.mb-2
+                h4.text-white.bg-07.w-content.p-2.mx-auto Fase 2
             h5.text-center.mb-0 Calificación
             p.text-center.mb-0 Durante la visita, Carlos verifica que la finca tiene un alto consumo eléctrico, acceso constante al sol y un interés genuino en reducir su huella ecológica. Además, identifica que cuentan con recursos financieros y están abiertos a nuevas tecnologías.
 
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
               .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_19.svg", alt="alt").img100.mx-auto
+                img(src="@/assets/curso/temas/tema6/img_19.svg", alt="alt").img100.mx-auto.mb-2
+                h4.text-white.bg-07.w-content.p-2.mx-auto Fase 3
             h5.text-center.mb-0 Presentación
             p.text-center.mb-0 Carlos realiza una presentación personalizada: explica cómo el sistema de paneles solares puede reducir el 70 % del consumo eléctrico, destaca el ahorro proyectado en 5 años y muestra casos exitosos de otras fincas similares. También entrega una simulación financiera con retorno de inversión.
 
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
               .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_20.svg", alt="alt").img100.mx-auto
+                img(src="@/assets/curso/temas/tema6/img_20.svg", alt="alt").img100.mx-auto.mb-2
+                h4.text-white.bg-07.w-content.p-2.mx-auto Fase 4
             h5.text-center.mb-0 Cierre
             p.text-center.mb-0 Luego de resolver algunas dudas sobre el mantenimiento y la garantía, el propietario de Montebello acepta la propuesta. Se firma el contrato y se programa la instalación para el mes siguiente.
       .col-md-5.col-lg-4
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema6/img_16.png", alt="alt").img400.mx-auto
+          img(src="@/assets/curso/temas/tema6/img_16.png", alt="alt").img400.mx-auto.w-75-movil
 
     .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
 
@@ -227,7 +231,7 @@
           .row.justify-content-center.align-items-center
             .col-md-4.col-lg-4
               figure
-                img(src='@/assets/curso/temas/tema6/img_21.png', alt='Imagen decorativa')
+                img(src='@/assets/curso/temas/tema6/img_21.png', alt='Imagen decorativa').mx-auto.w-75-movil
             .col-lg-8
               p.mb-5 Lo invitamos a escuchar el podcast “Charlas que venden” con el episodio “La ruta de venta efectiva”, donde el instructor Carlos y el aprendiz Kevin te enseñan, con humor y ejemplos prácticos, cómo planificar y ejecutar una ruta de ventas que realmente da resultados. ¡Aprende y diviértete mientras fortaleces tus habilidades comerciales!
               
