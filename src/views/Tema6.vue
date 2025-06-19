@@ -95,7 +95,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema6/img_09.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img_09.svg', alt='Texto que describa la imagen').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema6/img_10.svg', alt='Texto que describa la imagen').mx-auto.ocultar
 
           figcaption 
             b Fuente: 
@@ -165,7 +166,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema6/img_15.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img_15.svg', alt='Texto que describa la imagen').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema6/img_16.svg', alt='Texto que describa la imagen').mx-auto.ocultar
 
           figcaption 
             b Fuente: 

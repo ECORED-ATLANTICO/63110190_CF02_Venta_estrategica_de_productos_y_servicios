@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Toma de decisiones
+      h1 Servicio al cliente
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
       .col-lg-12
@@ -157,7 +157,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema1/img_08.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img_08.svg', alt='Texto que describa la imagen').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema1/img_08_0.svg', alt='Texto que describa la imagen').mx-auto.ocultar
 
           figcaption 
             b Fuente: 

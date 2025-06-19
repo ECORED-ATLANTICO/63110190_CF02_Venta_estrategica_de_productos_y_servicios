@@ -127,7 +127,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema5/img_05.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema5/img_05.svg', alt='Texto que describa la imagen').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema5/img_06.svg', alt='Texto que describa la imagen').mx-auto.ocultar
 
           figcaption 
             b Fuente: 
