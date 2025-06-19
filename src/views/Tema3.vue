@@ -37,32 +37,33 @@
       h3.position-relative#t_3_2 3.2	Tipos
         img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
 
-    .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
+    .row.justify-content-center.my-3.mb-4(data-aos="zoom-in")
 
       .col-lg-12.mb-4
         p Los objetivos de venta pueden dividirse en diferentes categorías, según el tipo de resultado que se desea alcanzar en: 
 
-      .col-sm-6.col-xl-4.mb-4
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_03.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
+      .col-md-6.col-lg-5.mb-4.mb-lg-0
+        .tarjeta.bg-10
+          .row
+            .col-md-12.col-lg-12
+              img(src="@/assets/curso/temas/tema3/img_03.png").mx-auto
+              .col-md-12.col-lg-12.p-3
+                h5.mb-3 Objetivos cuantitativos 
+                p.p-movil Están orientados a resultados medibles expresados en cifras, como la cantidad de productos vendidos, los ingresos obtenidos o el porcentaje de participación en el mercado.
 
-      .col-sm-6.col-xl-4.mb-4
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_03.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
+      .col-md-6.col-lg-5.mb-4.mb-lg-0
+        .tarjeta.bg-11
+          .row
+            .col-md-12.col-lg-12
+              img(src="@/assets/curso/temas/tema3/img_04.png").mx-auto
+              .col-md-12.col-lg-12.p-3
+                h5.mb-3 Objetivos cualitativos 
+                p.p-movil Están relacionados con aspectos intangibles que también impactan en el éxito comercial, como la percepción del cliente, la fidelización o la calidad del servicio.
       
-      .col-lg-10
-        p A continuación, se presenta una tabla con ejemplos para ilustrar ambos tipos:
 
     .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
+      .col-lg-10
+        p A continuación, se presenta una tabla con ejemplos para ilustrar ambos tipos:
       .col-md-12.col-lg-10
         .titulo-sexto.mb-4
           h5 Tabla 3. 

@@ -134,9 +134,18 @@
       .col-lg-10.mb-4
         div.tarjeta-horz.mb-3
           img(src='@/assets/curso/temas/tema1/img_07.png', alt='Imagen decorativa')
-          div.texto-tarjeta
-            p.mb-0 Seguidamente se presentan las etapas del proceso decisorio, adaptadas al contexto del punto de venta.
-
+          div.texto-tarjeta.bg-08
+            .row.justify-content-around.align-items-center
+              .col-auto
+                img(src="@/assets/curso/temas/tema1/img_17.png").img65
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h4.mb-1 Ir a los videos con tema portafolio de ventas:
+                  .col-sm-auto
+                    a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=WUfnXYuQHXI" target="_blank")
+                      span Ver Video
+                      i.fas.fa-file-video
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
 
@@ -161,7 +170,7 @@
         img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
 
 
-    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-acento-contenido
           .bloque-texto-g__img(
@@ -170,7 +179,41 @@
           .bloque-texto-g__texto.p-4.w-75
             p Las estrategias de servicio al cliente se diseñan para mejorar la interacción con el cliente, aumentar su satisfacción y fidelización. Algunas de las principales estrategias incluyen:
 
+    .row.justify-content-center.mb-4
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img_10.svg' alt='AvatarTop')
+          .tarjeta.bg-05.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 <b>Atención personalizada</b>
 
+              p.text-center.mb-0 Ofrecer un servicio adaptado a las necesidades específicas de cada cliente. Ejemplo: una clínica odontológica asigna un asesor a cada paciente, quien conoce su historial, le recuerda sus citas y le recomienda tratamientos adecuados según su caso.
+
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img_11.svg' alt='AvatarTop')
+          .tarjeta.bg-09.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 <b>Proactividad</b>
+              p.text-center.mb-0 Anticiparse a las necesidades de los clientes y brindarles soluciones antes de que ellos tengan que solicitarlas. Ejemplo: una empresa de tecnología detecta que algunos usuarios tienen problemas con una actualización reciente, y les envía un tutorial personalizado antes de que presenten quejas.
+
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-left")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img_12.svg' alt='AvatarTop')
+          .tarjeta.bg-08.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 <b>Comunicación efectiva</b>
+
+              p.text-center.mb-0 Utilizar canales adecuados y claros para comunicar información importante al cliente, como cambios de horario, disponibilidad de productos o políticas de garantía. Ejemplo: un gimnasio informa por WhatsApp y correo electrónico sobre cierres temporales, horarios especiales en festivos y nuevas clases disponibles, evitando molestias y mejorando la experiencia del cliente.
 
     separador
 
