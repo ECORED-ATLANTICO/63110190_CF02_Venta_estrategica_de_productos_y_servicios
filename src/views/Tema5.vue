@@ -116,6 +116,27 @@
       .col-lg-10.mb-4
         p En el mundo comercial, aplicar la técnica adecuada en el momento oportuno puede marcar la diferencia entre una venta ocasional y una relación comercial duradera. Por eso, es clave entender cuándo aplicar estrategias como la venta en frío o el up-selling, ya que cada una responde a contextos y objetivos distintos. Mientras una apunta a captar nuevos clientes desde cero, la otra busca maximizar el valor de quienes ya están interesados. A continuación, exploramos en qué escenarios resulta más efectiva cada una.
 
+    .row.justify-content-center
+      .bg-fondo-5.col-lg-10
+        .row.justify-content-center
+          .col-sm-6.col-lg-5.mb-4.mb-lg-0
+            .tarjeta.tarjeta-slide.arriba.bg-12(@mouseover="indicadorTarjetaSlide = false")
+              .indicador--hover(v-if="indicadorTarjetaSlide")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__contenido.p-4.p-lg-5.text-center
+                  h4.text-white.bg-07.w-content.p-2.mx-auto Venta en frío
+                  p Es efectiva en contextos donde se busca ampliar la base de clientes, especialmente en productos o servicios de uso general. Funciona bien en mercados con alta rotación o cuando el cliente no conoce aún la solución ofrecida, como en seguros, servicios financieros o ventas puerta a puerta.
+
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img_08.png')})`}").mx-auto
+
+          .col-sm-6.col-lg-5.mb-4.mb-lg-0
+            .tarjeta.tarjeta-slide.abajo.bg-12(@mouseover="indicadorTarjetaSlide = false")
+              .tarjeta-slide__contenedor
+                .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img_07.png')})`}")
+                .tarjeta-slide__contenido.p-4.p-lg-5.text-center
+                  h4.text-white.bg-07.w-content.p-2.mx-auto <em>Up-selling</em> (venta adicional)
+                  p Se aplica mejor cuando el cliente ya tiene intención de compra y está abierto a considerar mejoras. Ideal en sectores como tecnología, turismo, vehículos o servicios profesionales, donde una versión premium representa un valor agregado tangible.
+
 
     .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
 
