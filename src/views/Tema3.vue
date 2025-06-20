@@ -20,12 +20,11 @@
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-md-12.col-lg-10.mb-0
 
-        div.mb-5(data-aos="fade-right")
-          h3.position-relative#t_3_1 3.1	Concepto
-            img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+        .titulo-segundo.color-acento-contenido
+          h2#t_3_1 3.1 Concepto
       
         .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-          .col-lg-4.col-md-8.mb-4
+          .col-lg-4.col-md-8.mb-4.col-6
             figure
               img(src='@/assets/curso/temas/tema3/img_02.png', alt='Imagen decorativa')
           .col-lg-8.mb-4
@@ -36,9 +35,8 @@
 
         separador
 
-        div.mb-5(data-aos="fade-right")
-          h3.position-relative#t_3_2 3.2	Tipos
-            img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+        .titulo-segundo.color-acento-contenido
+          h2#t_3_2 3.2 Tipos
 
         .row.justify-content-center.my-3.mb-4(data-aos="zoom-in")
 

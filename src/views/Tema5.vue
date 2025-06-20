@@ -7,7 +7,7 @@
         span 5
       h1 Técnicas de ventas
 
-    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.bg-13
           .bloque-texto-g__img(
@@ -16,16 +16,28 @@
           .bloque-texto-g__texto.p-4
             p En el ámbito comercial, las técnicas de ventas constituyen herramientas fundamentales para optimizar el proceso comercial, donde se especifican los métodos y estrategias que hacen posible transformar la interacción con clientes en resultados concretos.
 
-    separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_5_1 5.1	Tipos
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_5_2 5.1 Tipos
+
+    .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
+      .col-lg-3.col-md-8.mb-4.col-6
+        figure
+          img(src='@/assets/curso/temas/tema4/img_04.svg', alt='Imagen decorativa')
+      .col-lg-9.mb-4
+        p Las técnicas de ventas son un conjunto de métodos y estrategias utilizadas por los vendedores con el propósito de persuadir a los clientes y facilitar el proceso de compra. Estas herramientas permiten al vendedor identificar las necesidades del comprador, superar objeciones y cerrar una venta de manera efectiva. La elección de una técnica específica depende de factores como el tipo de producto o servicio ofrecido, el comportamiento del consumidor y el entorno del mercado (Kotler & Keller, 2016).
+
+
+
+    separador
+    
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_5_2 5.2 Tipos
    
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       
       .col-lg-12
-        p.mb-0 A continuación, se describen algunas de las técnicas más empleadas en los procesos comerciales:
+        p.mb-3 A continuación, se describen algunas de las técnicas más empleadas en los procesos comerciales:
 
       .col-md-12.col-sm-12.mx-auto
         .tarjeta.bg_azul.mb-5.p-3
@@ -51,76 +63,21 @@
                 
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_5_2 5.2	Tipos
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_5_3 5.3 Aplicabilidad
 
-    .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
-
-      .col-lg-12.mb-4
-        div.tarjeta-horz.mb-3
-          img(src='@/assets/curso/temas/tema4/img_05.png', alt='Imagen decorativa')
-          div.texto-tarjeta
-            p.mb-0 A continuación, se presenta una tabla con los tipos de estrategias más comunes, sus ejemplos y descripciones:
-
-    .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
-      .col-md-12.col-lg-10
-        .titulo-sexto.mb-4
-          h5 Tabla 4. 
-          span.text-dark
-            i Tipos de estrategias de venta en el servicio al cliente
-
-        .morado
-          .tabla-a
-            table
-              caption
-                strong Fuente: Kotler, P., & Armstrong, G. (2017).
-              thead
-                tr
-                  th.bg-color-4.text-white Tipo de Estrategia
-                  th.bg-color-4.text-white Definición
-                  th.bg-color-4.text-white Ejemplo
-              tbody
-                tr.bg-color-white
-                  td.text-left Venta consultiva
-                  td.text-left Estrategia centrada en comprender las necesidades del cliente para ofrecer soluciones personalizadas, generando confianza y relaciones a largo plazo.
-                  td.text-left Un vendedor que escucha al cliente identifica que necesita un producto ecológico y le recomienda una línea sostenible.
-                tr.bg-color-5
-                  td.text-left Venta transaccional
-                  td.text-left Estrategia enfocada en concretar ventas rápidas, donde el precio y la eficiencia del proceso son más importantes que la relación a largo plazo.
-                  td.text-left Un vendedor que ofrece una promoción del día para cerrar la venta de inmediato.
-                tr.bg-color-white
-                  td.text-left Venta emocional
-                  td.text-left Estrategia que apela a los sentimientos del cliente para generar un vínculo emocional con el producto, destacando beneficios personales o sociales.
-                  td.text-left Un vendedor que resalta cómo el uso del producto puede contribuir a una vida más feliz y armoniosa en el hogar.
-                tr.bg-color-5
-                  td.text-left Venta cruzada (cross-selling)
-                  td.text-left Estrategia enfocada en incrementar el valor total de la compra sugiriendo productos adicionales que complementen la elección inicial del cliente.
-                  td.text-left Un vendedor que, al vender un celular, sugiere también comprar un protector y unos audífonos.
-                tr.bg-color-white
-                  td.text-left Venta basada en valor
-                  td.text-left Estrategia que resalta los beneficios y el valor agregado del producto, más allá del precio, enfocándose en el retorno a largo plazo.
-                  td.text-left Un asesor que destaca los beneficios económicos a futuro de una impresora eficiente, más allá de su precio inicial.
-
-    separador
-
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_5_3 5.3	Criterios de aplicación
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
-
-
-    .row.justify-content-center.mb-2(data-aos="zoom-in")
-      .col-lg-2.col-md-5.mb-4
+    .row.justify-content-center.mb-2.align-items-center(data-aos="zoom-in")
+      .col-lg-2.col-md-5.mb-4.col-6
         figure
-          img(src='@/assets/curso/temas/tema5/img_04.svg', alt='Imagen decorativa').w-75-movil.mx-auto
+          img(src='@/assets/curso/temas/tema5/img_04.svg', alt='Imagen decorativa').mx-auto
       .col-lg-10.mb-4
         p En el mundo comercial, aplicar la técnica adecuada en el momento oportuno puede marcar la diferencia entre una venta ocasional y una relación comercial duradera. Por eso, es clave entender cuándo aplicar estrategias como la venta en frío o el up-selling, ya que cada una responde a contextos y objetivos distintos. Mientras una apunta a captar nuevos clientes desde cero, la otra busca maximizar el valor de quienes ya están interesados. A continuación, exploramos en qué escenarios resulta más efectiva cada una.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .bg-fondo-5.col-lg-10
         .row.justify-content-center
           .col-sm-6.col-lg-5.mb-4.mb-lg-0
-            .tarjeta.tarjeta-slide.arriba.bg-12(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta.tarjeta-slide.abajo.bg-12(@mouseover="indicadorTarjetaSlide = false")
               .indicador--hover(v-if="indicadorTarjetaSlide")
               .tarjeta-slide__contenedor
                 .tarjeta-slide__contenido.p-4.p-lg-5.text-center

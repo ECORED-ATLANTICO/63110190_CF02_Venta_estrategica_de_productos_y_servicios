@@ -18,30 +18,28 @@
 
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_6_1 6.1	Concepto
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_6_1 6.1 Concepto
    
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-lg-2.col-md-4.mb-4
+      .col-lg-2.col-md-4.mb-4.col-6
         figure
           img(src='@/assets/curso/temas/tema6/img_02.svg', alt='Imagen decorativa').mx-auto.w-75-movil
       .col-lg-10.mb-4
         p La venta es un proceso de intercambio en el cual un vendedor ofrece un producto o servicio a un cliente a cambio de un valor, generalmente económico. No se trata únicamente de entregar un bien, sino de identificar necesidades, generar confianza y construir relaciones duraderas con el cliente. La venta efectiva combina técnicas de comunicación, conocimiento del producto y comprensión del comportamiento del consumidor para lograr resultados sostenibles (Kotler & Armstrong, 2018).
 
         .row.justify-content-center.align-items-center
-          .col-lg-2.col-md-5.mb-4
+          .col-lg-2.col-md-5.mb-4.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema6/img_03.png', alt='Imagen decorativa').mx-auto.quitar
+              img(src='@/assets/curso/temas/tema6/img_03.png', alt='Imagen decorativa').mx-auto
 
           .col-lg-10.mb-4
-            p Según Kotler y Armstrong (2017), las estrategias de venta efectivas integran el conocimiento del cliente, el dominio del producto y habilidades de comunicación. El objetivo no es simplemente cerrar una venta, sino ofrecer una experiencia de compra tan positiva que motive al cliente a volver.
+            p El proceso de venta es un conjunto de etapas estructuradas que guían al vendedor desde la identificación de un posible cliente hasta el cierre exitoso de una transacción. Este proceso no solo busca lograr una venta, sino también garantizar que las necesidades del cliente sean satisfechas, fomentando así la fidelización (Jobber & Lancaster, 2017). 
 
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_6_2 6.2	Fases
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_6_2 6.2 Fases
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
 
@@ -58,7 +56,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 Consiste en buscar y seleccionar clientes potenciales. Por ejemplo, una empresa de telefonía identifica a jóvenes profesionales como clientes ideales para sus planes de datos móviles.
-              .col-md-4.col-lg-4
+              .col-md-4.col-lg-4.col-6
                 figure
                   img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Imagen decorativa').mx-auto.w-75
             
@@ -66,7 +64,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 Se evalúa si el prospecto tiene el interés, la necesidad, y los recursos para adquirir el producto. Por ejemplo, si el prospecto está buscando cambiar de proveedor y tiene la capacidad económica.
-              .col-md-4.col-lg-4
+              .col-md-4.col-lg-4.col-6
                 figure
                   img(src='@/assets/curso/temas/tema6/img_06.svg', alt='Imagen decorativa').mx-auto.w-75
 
@@ -74,7 +72,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 El vendedor muestra el producto o servicio resaltando los beneficios que mejor satisfacen las necesidades del cliente. Por ejemplo, destaca la cobertura, la velocidad de navegación y el precio competitivo del plan telefónico.
-              .col-md-4.col-lg-4
+              .col-md-4.col-lg-4.col-6
                 figure
                   img(src='@/assets/curso/temas/tema6/img_07.svg', alt='Imagen decorativa').mx-auto.w-75
 
@@ -82,7 +80,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 Es el momento en el que se concreta la venta. Puede incluir la firma de un contrato, la entrega del producto o la activación del servicio. Aquí es crucial asegurar la claridad del acuerdo y la satisfacción del cliente.
-              .col-md-4.col-lg-4
+              .col-md-4.col-lg-4.col-6
                 figure
                   img(src='@/assets/curso/temas/tema6/img_08.svg', alt='Imagen decorativa').mx-auto.w-75
       
@@ -104,9 +102,8 @@
 
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_6_3 6.3	Ruta de venta
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_6_3 6.3	Ruta de venta
    
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in").ordenar_div
       .col-md-12.col-lg-8.mb-4
@@ -115,13 +112,13 @@
 
         .tarjeta.bg-03.p-3
           .row.justify-content-center.align-items-center.ordenar_div
-            .col-lg-2.col-md-3.mb-4
+            .col-lg-2.col-md-3.mb-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema6/img_010.svg', alt='Imagen decorativa').mx-auto.w-50
             .col-lg-10.col-md-9
               p.mb-0 Para lograr una gestión comercial efectiva, es fundamental conocer las diferentes formas de acercarse al cliente. A continuación, se presentan los principales tipos de rutas en el proceso de venta:
 
-      .col-lg-4.col-md-5.mb-4.arriba
+      .col-lg-4.col-md-5.mb-4.arriba.col-6
         figure
           img(src='@/assets/curso/temas/tema6/img_11.png', alt='Imagen decorativa')
 
@@ -157,6 +154,17 @@
             p.mb-2 Combina elementos de la ruta física y la digital. El vendedor puede iniciar el contacto con el cliente a través de medios virtuales y, en una fase posterior, concretar una visita presencial. Esta estrategia permite aprovechar lo mejor de ambos mundos, generando un equilibrio entre la eficiencia digital y la cercanía del contacto físico.
             p.mb-0 Las rutas mixtas son útiles en procesos de venta consultiva, donde es importante identificar necesidades por medios remotos y luego cerrar acuerdos en persona (Blythe, 2012).
       
+
+    .row
+      .col-12.col-lg-10.bgblue.p-5.mx-auto.mb-5.position-relative
+        .row
+          .col-12.col-lg-10.text-white
+            p.mb-0 Una ruta de ventas efectiva se caracteriza por estar bien planificada y estructurada, pero también ser lo suficientemente flexible para adaptarse a cambios. Debe enfocarse en la rentabilidad, optimizando tiempo y recursos, y centrarse en los clientes con mayor potencial. Además, debe ser medible, permitiendo el seguimiento de resultados a través de indicadores claros como visitas, ventas y tiempos de atención.
+          .col-2.d-none.d-lg-block
+            figure.position-absolute.iconoutside
+              img(src="@/assets/curso/temas/tema6/img_23.png", alt="alt").w-auto
+
+
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
       .col-lg-10.mb-4
         .titulo-sexto.mb-4
@@ -175,9 +183,8 @@
 
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_6_4 6.4	Ejemplo
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_6_4 6.4 Ejemplo
 
 
     .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
@@ -185,41 +192,41 @@
 
     .row.justify-content-center.align-items-center.my-3.mb-0(data-aos="zoom-in")
       .col-lg-8
-        p Desde el punto de vista del trabajo archivístico, las tablas de retención documental son fundamentales, porque:
+       
 
         SlyderF.custom.mb-5(columnas="col-md-6 col-lg-6 col-xl-6")
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
-              .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_17.svg", alt="alt").img100.mx-auto.mb-2
+              .col-md-5.col-4
+                img(src="@/assets/curso/temas/tema6/img_17.svg", alt="alt").img100.mx-auto.mb-4
                 h4.text-white.bg-07.w-content.p-2.mx-auto Fase 1
             h5.text-center.mb-0 Prospección
             p.text-center.mb-0 Carlos asiste a una feria de agroindustria en Montería y encuentra una finca llamada Montebello, que cultiva aguacate de manera orgánica y ha ganado reconocimientos por su modelo sostenible. Anota sus datos y programa una visita.
 
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
-              .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_18.svg", alt="alt").img100.mx-auto.mb-2
+              .col-md-5.col-4
+                img(src="@/assets/curso/temas/tema6/img_18.svg", alt="alt").img100.mx-auto.mb-4
                 h4.text-white.bg-07.w-content.p-2.mx-auto Fase 2
             h5.text-center.mb-0 Calificación
             p.text-center.mb-0 Durante la visita, Carlos verifica que la finca tiene un alto consumo eléctrico, acceso constante al sol y un interés genuino en reducir su huella ecológica. Además, identifica que cuentan con recursos financieros y están abiertos a nuevas tecnologías.
 
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
-              .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_19.svg", alt="alt").img100.mx-auto.mb-2
+              .col-md-5.col-4
+                img(src="@/assets/curso/temas/tema6/img_19.svg", alt="alt").img100.mx-auto.mb-4
                 h4.text-white.bg-07.w-content.p-2.mx-auto Fase 3
             h5.text-center.mb-0 Presentación
             p.text-center.mb-0 Carlos realiza una presentación personalizada: explica cómo el sistema de paneles solares puede reducir el 70 % del consumo eléctrico, destaca el ahorro proyectado en 5 años y muestra casos exitosos de otras fincas similares. También entrega una simulación financiera con retorno de inversión.
 
           .tarjeta.tarjeta--slyder.p-4.bg-06
             .row.justify-content-center.mb-3
-              .col-md-5.col-8
-                img(src="@/assets/curso/temas/tema6/img_20.svg", alt="alt").img100.mx-auto.mb-2
+              .col-md-5.col-4
+                img(src="@/assets/curso/temas/tema6/img_20.svg", alt="alt").img100.mx-auto.mb-4
                 h4.text-white.bg-07.w-content.p-2.mx-auto Fase 4
             h5.text-center.mb-0 Cierre
             p.text-center.mb-0 Luego de resolver algunas dudas sobre el mantenimiento y la garantía, el propietario de Montebello acepta la propuesta. Se firma el contrato y se programa la instalación para el mes siguiente.
-      .col-md-5.col-lg-4
+      .col-md-5.col-lg-4.col-6
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema6/img_16.png", alt="alt").img400.mx-auto.w-75-movil
 
@@ -229,7 +236,7 @@
         p Este caso muestra cómo una venta consultiva, con enfoque en las necesidades del cliente y la sostenibilidad, puede recorrer todo el proceso estructurado de forma efectiva.
         .tarjeta.bg-fondo-1.p-4
           .row.justify-content-center.align-items-center
-            .col-md-4.col-lg-4
+            .col-md-4.col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema6/img_21.png', alt='Imagen decorativa').mx-auto.w-75-movil
             .col-lg-8

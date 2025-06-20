@@ -21,29 +21,27 @@
 
         separador
 
-        div.mb-5(data-aos="fade-right")
-          h3.position-relative#t_4_1 4.1	Definición
-            img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
-      
+        .titulo-segundo.color-acento-contenido
+          h2#t_4_1 4.1 Definición
+
         .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-          .col-lg-2.col-md-5.mb-0
+          .col-lg-2.col-md-5.mb-0.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema4/img_02.svg', alt='Imagen decorativa').quitar
+              img(src='@/assets/curso/temas/tema4/img_02.svg', alt='Imagen decorativa')
           .col-lg-8.mb-4
             p Las estrategias de venta son los enfoques, métodos y tácticas que los vendedores emplean para atraer la atención del cliente, generar su interés, influir en su decisión de compra y asegurar una venta exitosa. Estas estrategias pueden ajustarse dependiendo del tipo de cliente, del producto o servicio ofrecido y del entorno del mercado. Su adecuada implementación puede ser determinante para convertir una venta ocasional en una relación comercial a largo plazo.
 
-          .col-lg-2.col-md-5.mb-4
+          .col-lg-2.col-md-5.mb-4.col-6
             figure
-              img(src='@/assets/curso/temas/tema4/img_03.svg', alt='Imagen decorativa').w-75-movil.mx-auto
+              img(src='@/assets/curso/temas/tema4/img_03.svg', alt='Imagen decorativa').mx-auto
 
           .col-lg-12.mb-4
             p Según Kotler y Armstrong (2017), las estrategias de venta efectivas integran el conocimiento del cliente, el dominio del producto y habilidades de comunicación. El objetivo no es simplemente cerrar una venta, sino ofrecer una experiencia de compra tan positiva que motive al cliente a volver.
 
         separador
 
-        div.mb-5(data-aos="fade-right")
-          h3.position-relative#t_4_2 4.2	Tipos
-            img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+        .titulo-segundo.color-acento-contenido
+          h2#t_4_2 4.2 Tipos
 
         .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
 
@@ -94,13 +92,11 @@
 
         separador
 
-        div.mb-5(data-aos="fade-right")
-          h3.position-relative#t_4_3 4.3	Criterios de aplicación
-            img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
-
+        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2#t_4_3 4.3	Criterios de aplicación
 
         .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-          .col-lg-3.col-md-8.mb-4
+          .col-lg-3.col-md-8.mb-4.col-8
             figure
               img(src='@/assets/curso/temas/tema4/img_04.svg', alt='Imagen decorativa')
           .col-lg-9.mb-4

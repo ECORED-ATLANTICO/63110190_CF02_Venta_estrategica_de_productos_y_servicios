@@ -8,7 +8,7 @@
       h1 Momentos de verdad
 
     .row.p-0.g-0
-      .col-12.mx-auto
+      .col-lg-10.col-12.mx-auto
         .row.bg-verde.p-0.g-0.mb-5
           .col-md-4(
               :style="{'background': `url(${require('@/assets/curso/temas/tema2/img_01.png')}) right no-repeat`,'min-height':'100px','background-size':'cover'}"
@@ -18,10 +18,8 @@
 
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_2_1 2.1	Concepto
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
-  
+    .titulo-segundo.color-acento-contenido
+      h2#t_2_1 2.1 Concepto
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-9.mb-4
@@ -29,15 +27,14 @@
 
         p Ladhari (2009) sugiere que los momentos de verdad son fundamentales para establecer una relación de confianza y satisfacción con el cliente. Cada vez que un cliente interactúa con la empresa, se crea una oportunidad para fortalecer su lealtad o perderla.
         
-      .col-lg-3.col-md-8.mb-4
+      .col-lg-3.col-md-8.mb-4.col-6
         figure
           img(src='@/assets/curso/temas/tema2/img_02.png', alt='Imagen decorativa')
      
     separador
 
-    div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_2_2 2.2	Ciclo
-        img.w-auto.pt-2(src='@/assets/curso/temas/tema1/img_0.png', alt='')
+    .titulo-segundo.color-acento-contenido
+      h2#t_2_1 2.2 Ciclo
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
 
