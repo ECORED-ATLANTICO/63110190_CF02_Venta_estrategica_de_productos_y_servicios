@@ -3,9 +3,22 @@ export default {
     Name: 'Comercialización de productos y servicios',
     Description:
       'Este componente brinda herramientas básicas para comprender y aplicar conceptos de comercialización de productos y servicios. A través de estrategias, técnicas de venta y atención al cliente, el aprendiz desarrollará habilidades clave para interactuar eficazmente con el mercado, mejorar la experiencia del consumidor y fortalecer su desempeño en entornos comerciales reales.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

@@ -3,17 +3,17 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 45%
-    left: -5%
+    left: 5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 31%
     right: 10%
   &-3
     animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 5%
-    right: 44%
+    top: 61%
+    right: 24%
 
 @keyframes float1
   0%
@@ -26,17 +26,13 @@
     transform: translateX(30px)
   100%
     transform: translateX(0px)
+
 .banner-principal
   &__info
     padding: 0 3rem
 
-.banner-principal .tarjeta
-  background-position: left 50%
-  @media screen and (max-width: 768px)
-    background-position: -200px 0
-
 .banner-principal__row .banner-principal__img
-  width: 400px !important
+
   margin: 0
   padding: 2rem 0 0 0!important
 
@@ -77,7 +73,7 @@ figcaption
 .mostrar
   display: block
 
-@media screen and (max-width: $bp-max-sm)
+@media screen and (max-width: $bp-max-md)
   .ordenar_tarjeta_pasos
     .col-lg
       order: -1
