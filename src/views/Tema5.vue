@@ -16,12 +16,13 @@
           .bloque-texto-g__texto.p-4
             p En el ámbito comercial, las técnicas de ventas constituyen herramientas fundamentales para optimizar el proceso comercial, donde se especifican los métodos y estrategias que hacen posible transformar la interacción con clientes en resultados concretos.
 
+    separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_5_2 5.1 Tipos
+      h2#t_5_1 5.1 Definición
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-lg-3.col-md-8.mb-4.col-6
+      .col-lg-3.col-md-8.mb-4
         figure
           img(src='@/assets/curso/temas/tema4/img_04.svg', alt='Imagen decorativa')
       .col-lg-9.mb-4
@@ -67,7 +68,7 @@
       h2#t_5_3 5.3 Aplicabilidad
 
     .row.justify-content-center.mb-2.align-items-center(data-aos="zoom-in")
-      .col-lg-2.col-md-5.mb-4.col-6
+      .col-lg-2.col-md-5.mb-4
         figure
           img(src='@/assets/curso/temas/tema5/img_04.svg', alt='Imagen decorativa').mx-auto
       .col-lg-10.mb-4

@@ -18,7 +18,7 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_2_1 2.1 Concepto
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
@@ -27,14 +27,14 @@
 
         p Ladhari (2009) sugiere que los momentos de verdad son fundamentales para establecer una relación de confianza y satisfacción con el cliente. Cada vez que un cliente interactúa con la empresa, se crea una oportunidad para fortalecer su lealtad o perderla.
         
-      .col-lg-3.col-md-8.mb-4.col-6
+      .col-lg-3.col-md-8.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img_02.png', alt='Imagen decorativa')
      
     separador
 
-    .titulo-segundo.color-acento-contenido
-      h2#t_2_1 2.2 Ciclo
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2#t_2_2 2.2 Ciclo
 
     .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
 

@@ -18,11 +18,11 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.1 Concepto
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-md-4.col-lg-3.mb-4.col-6
+      .col-md-4.col-lg-3.mb-4
         figure
           img(src='@/assets/curso/temas/tema1/img_02.png', alt='Imagen decorativa').mx-auto
       .col-lg-9.mb-4
@@ -61,11 +61,11 @@
              
     separador
 
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_2 1.2 Ciclo
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-md-5.col-lg-2.d-none.b-lg-block
+      .col-md-5.col-lg-2.b-lg-block.quitar
         figure
           img(src='@/assets/curso/temas/tema1/img_5_5.png', alt='Imagen decorativa')
       .col-lg-10
@@ -164,7 +164,7 @@
 
     .row
       .col-12.col-lg-10.mx-auto
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_1_3 1.3 Estrategías
 
         .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
@@ -217,57 +217,57 @@
 
         separador
 
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_1_4 1.4 Técnicas de comunicación
 
         .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
-          .col-md-6.col-lg-3.mb-4.mb-lg-0.col-6
+          .col-md-6.col-lg-3.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img_13.png', alt='Imagen decorativa')
           .col-lg-9
             p.mb-3 Las técnicas de comunicación son herramientas esenciales para brindar un servicio al cliente de calidad, ya que permiten crear un ambiente de confianza, comprensión y resolución efectiva de necesidades. Una comunicación eficaz no solo mejora la experiencia del cliente, sino que también fortalece la relación entre este y la organización. 
             p.mb-0 Seguidamente, se describen algunas de las técnicas más utilizadas:
 
-        .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in")
-          .col-md-12.col-sm-12.mx-auto
-            .tarjeta.bg_azul.mb-5.p-3
-              .tarjeta.p-2
-                SlyderA(tipo="b")
-                  .row.justify-content-center.align-items-center.my-lg-4.p-4
-                    .col-md-12.col-lg-8.mb-4
-                      h5 Escucha activa 
-                      p.mb-2 La escucha activa va más allá de simplemente oír al cliente; implica prestar atención consciente, sin interrupciones, mostrando comprensión a través de gestos y palabras. Requiere concentración, contacto visual y retroalimentación verbal y no verbal.
-                      p.mb-2 Según Robbins y Judge (2013), esta práctica fortalece la confianza entre las partes y permite comprender con mayor claridad las necesidades del cliente, lo que facilita brindar respuestas apropiadas y empáticas.
-                      p.mb-0 Ejemplos de escucha activa incluyen atender una queja sin interrumpir, tomando notas y ofreciendo apoyo verbal, o confirmar la información proporcionada por el cliente repitiendo su solicitud para asegurar una correcta comprensión.
-                    
-                    .col-md-8.col-lg-3.mb-4.mb-md-0.col-6
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_14.png', alt='Imagen Decorativa')
+      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in")
+        .col-md-12.col-sm-12.mx-auto
+          .tarjeta.bg_azul.mb-5.p-3
+            .tarjeta.p-2
+              SlyderA(tipo="b")
+                .row.justify-content-center.align-items-center.my-lg-4.p-4
+                  .col-md-12.col-lg-8.mb-4
+                    h5 Escucha activa 
+                    p.mb-2 La escucha activa va más allá de simplemente oír al cliente; implica prestar atención consciente, sin interrupciones, mostrando comprensión a través de gestos y palabras. Requiere concentración, contacto visual y retroalimentación verbal y no verbal.
+                    p.mb-2 Según Robbins y Judge (2013), esta práctica fortalece la confianza entre las partes y permite comprender con mayor claridad las necesidades del cliente, lo que facilita brindar respuestas apropiadas y empáticas.
+                    p.mb-0 Ejemplos de escucha activa incluyen atender una queja sin interrumpir, tomando notas y ofreciendo apoyo verbal, o confirmar la información proporcionada por el cliente repitiendo su solicitud para asegurar una correcta comprensión.
+                  
+                  .col-md-8.col-lg-3.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/temas/tema1/img_14.png', alt='Imagen Decorativa')
 
-                  .row.justify-content-center.align-items-center.my-lg-4.p-4
-                    .col-md-12.col-lg-8.mb-4
-                      h5 Escucha activa 
-                      p.mb-2 El lenguaje positivo consiste en utilizar expresiones amables y propositivas que favorecen un ambiente cordial y colaborativo. Frases como “será un placer ayudarle” o “buscaremos la mejor solución posible” transmiten profesionalismo y disposición, lo que mejora la experiencia del cliente y reduce posibles tensiones.
-                      p.mb-2 Además, enfocar la comunicación en soluciones en lugar de problemas permite mantener una actitud proactiva. Según Kotler y Keller (2016), un trato cordial influye significativamente en la percepción del valor del servicio.
-                      p.mb-0 Ejemplos incluyen reemplazar respuestas negativas como “no se puede” por afirmaciones enfocadas en alternativas, o agradecer la paciencia del cliente mientras se resuelve su solicitud.
+                .row.justify-content-center.align-items-center.my-lg-4.p-4
+                  .col-md-12.col-lg-8.mb-4
+                    h5 Escucha activa 
+                    p.mb-2 El lenguaje positivo consiste en utilizar expresiones amables y propositivas que favorecen un ambiente cordial y colaborativo. Frases como “será un placer ayudarle” o “buscaremos la mejor solución posible” transmiten profesionalismo y disposición, lo que mejora la experiencia del cliente y reduce posibles tensiones.
+                    p.mb-2 Además, enfocar la comunicación en soluciones en lugar de problemas permite mantener una actitud proactiva. Según Kotler y Keller (2016), un trato cordial influye significativamente en la percepción del valor del servicio.
+                    p.mb-0 Ejemplos incluyen reemplazar respuestas negativas como “no se puede” por afirmaciones enfocadas en alternativas, o agradecer la paciencia del cliente mientras se resuelve su solicitud.
 
-                    
-                    .col-md-8.col-lg-3.mb-4.mb-md-0.col-6
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_15.png', alt='Imagen Decorativa')
-                    
-                  .row.justify-content-center.align-items-center.my-lg-4.p-4
-                    .col-md-12.col-lg-8.mb-4
-                      h5 Escucha activa 
-                      p.mb-2 La empatía implica comprender y conectar emocionalmente con otra persona, reconociendo sus sentimientos sin emitir juicios. En el contexto del servicio al cliente, se expresa al reconocer las emociones del usuario y responder con respeto y comprensión.
-                      p.mb-2 Ser empático no implica estar necesariamente de acuerdo, sino validar la experiencia del cliente y mostrar disposición para ayudar. Como señala Goleman (2006), la empatía es una habilidad fundamental de la inteligencia emocional y clave para establecer relaciones humanas efectivas.
-                      p.mb-0 Ejemplos prácticos incluyen reconocer la molestia de un cliente y asegurar que se buscará una solución, o brindar apoyo paciente a alguien que enfrenta dificultades con un servicio o herramienta.
+                  
+                  .col-md-8.col-lg-3.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/temas/tema1/img_15.png', alt='Imagen Decorativa')
+                  
+                .row.justify-content-center.align-items-center.my-lg-4.p-4
+                  .col-md-12.col-lg-8.mb-4
+                    h5 Escucha activa 
+                    p.mb-2 La empatía implica comprender y conectar emocionalmente con otra persona, reconociendo sus sentimientos sin emitir juicios. En el contexto del servicio al cliente, se expresa al reconocer las emociones del usuario y responder con respeto y comprensión.
+                    p.mb-2 Ser empático no implica estar necesariamente de acuerdo, sino validar la experiencia del cliente y mostrar disposición para ayudar. Como señala Goleman (2006), la empatía es una habilidad fundamental de la inteligencia emocional y clave para establecer relaciones humanas efectivas.
+                    p.mb-0 Ejemplos prácticos incluyen reconocer la molestia de un cliente y asegurar que se buscará una solución, o brindar apoyo paciente a alguien que enfrenta dificultades con un servicio o herramienta.
 
-                    
-                    .col-md-8.col-lg-3.mb-4.mb-md-0.col-6
-                      figure
-                        img(src='@/assets/curso/temas/tema1/img_16.png', alt='Imagen Decorativa')
-                    
+                  
+                  .col-md-8.col-lg-3.mb-4.mb-md-0
+                    figure
+                      img(src='@/assets/curso/temas/tema1/img_16.png', alt='Imagen Decorativa')
+                  
 </template>
 
 <script>

@@ -22,7 +22,7 @@
       h2#t_6_1 6.1 Concepto
    
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-lg-2.col-md-4.mb-4.col-6
+      .col-lg-2.col-md-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema6/img_02.svg', alt='Imagen decorativa').mx-auto.w-75-movil
       .col-lg-10.mb-4
@@ -56,7 +56,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 Consiste en buscar y seleccionar clientes potenciales. Por ejemplo, una empresa de telefonía identifica a jóvenes profesionales como clientes ideales para sus planes de datos móviles.
-              .col-md-4.col-lg-4.col-6
+              .col-md-4.col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema6/img_05.svg', alt='Imagen decorativa').mx-auto.w-75
             
@@ -64,7 +64,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 Se evalúa si el prospecto tiene el interés, la necesidad, y los recursos para adquirir el producto. Por ejemplo, si el prospecto está buscando cambiar de proveedor y tiene la capacidad económica.
-              .col-md-4.col-lg-4.col-6
+              .col-md-4.col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema6/img_06.svg', alt='Imagen decorativa').mx-auto.w-75
 
@@ -72,7 +72,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 El vendedor muestra el producto o servicio resaltando los beneficios que mejor satisfacen las necesidades del cliente. Por ejemplo, destaca la cobertura, la velocidad de navegación y el precio competitivo del plan telefónico.
-              .col-md-4.col-lg-4.col-6
+              .col-md-4.col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema6/img_07.svg', alt='Imagen decorativa').mx-auto.w-75
 
@@ -80,7 +80,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.mb-4
                 p.mb-0 Es el momento en el que se concreta la venta. Puede incluir la firma de un contrato, la entrega del producto o la activación del servicio. Aquí es crucial asegurar la claridad del acuerdo y la satisfacción del cliente.
-              .col-md-4.col-lg-4.col-6
+              .col-md-4.col-lg-4
                 figure
                   img(src='@/assets/curso/temas/tema6/img_08.svg', alt='Imagen decorativa').mx-auto.w-75
       
@@ -112,37 +112,37 @@
 
         .tarjeta.bg-03.p-3
           .row.justify-content-center.align-items-center.ordenar_div
-            .col-lg-2.col-md-3.mb-4.col-6
+            .col-lg-2.col-md-3.mb-4
               figure
                 img(src='@/assets/curso/temas/tema6/img_010.svg', alt='Imagen decorativa').mx-auto.w-50
             .col-lg-10.col-md-9
               p.mb-0 Para lograr una gestión comercial efectiva, es fundamental conocer las diferentes formas de acercarse al cliente. A continuación, se presentan los principales tipos de rutas en el proceso de venta:
 
-      .col-lg-4.col-md-5.mb-4.arriba.col-6
+      .col-lg-4.col-md-5.mb-4.arriba
         figure
           img(src='@/assets/curso/temas/tema6/img_11.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema6/img_12.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Ruta  física o territorial
-            p.mb-2 Este tipo de ruta está basada en el desplazamiento del vendedor por zonas geográficas específicas. Se utiliza especialmente en ventas directas, distribución minorista o ventas al por mayor. El objetivo es cubrir un territorio asignado de forma sistemática, visitando clientes actuales y potenciales según una programación regular.
-            p.mb-0 Las rutas territoriales facilitan una cobertura equilibrada del mercado y permiten establecer relaciones más cercanas con los clientes. Además, contribuyen a reducir costos de transporte y aumentar la frecuencia de contacto con los compradores (Kotler & Keller, 2016).
+            p.mb-2.p-movil Este tipo de ruta está basada en el desplazamiento del vendedor por zonas geográficas específicas. Se utiliza especialmente en ventas directas, distribución minorista o ventas al por mayor. El objetivo es cubrir un territorio asignado de forma sistemática, visitando clientes actuales y potenciales según una programación regular.
+            p.mb-0.p-movil Las rutas territoriales facilitan una cobertura equilibrada del mercado y permiten establecer relaciones más cercanas con los clientes. Además, contribuyen a reducir costos de transporte y aumentar la frecuencia de contacto con los compradores (Kotler & Keller, 2016).
 
 
-      .col-xl-4.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema6/img_13.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Ruta digital o virtual
-            p.mb-2 Con el auge de las tecnologías de la información, muchos procesos de venta han migrado al entorno digital. En este caso, la ruta de venta se organiza a partir de interacciones virtuales, como correos electrónicos, mensajes por WhatsApp, llamadas telefónicas o videoconferencias.
-            p.mb-0 Esta modalidad es especialmente útil cuando los clientes están dispersos geográficamente o cuando el producto o servicio se puede ofrecer sin presencia física. Además, permite realizar seguimiento y acompañamiento de manera más continua, incluso fuera del horario tradicional de oficina (Jobber & Lancaster, 2015).
+            p.mb-2.p-movil Con el auge de las tecnologías de la información, muchos procesos de venta han migrado al entorno digital. En este caso, la ruta de venta se organiza a partir de interacciones virtuales, como correos electrónicos, mensajes por WhatsApp, llamadas telefónicas o videoconferencias.
+            p.mb-0.p-movil Esta modalidad es especialmente útil cuando los clientes están dispersos geográficamente o cuando el producto o servicio se puede ofrecer sin presencia física. Además, permite realizar seguimiento y acompañamiento de manera más continua, incluso fuera del horario tradicional de oficina (Jobber & Lancaster, 2015).
 
       .col-xl-4.col-lg-7.col-md-6.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -151,8 +151,8 @@
               img(src="@/assets/curso/temas/tema6/img_14.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3 Ruta mixta
-            p.mb-2 Combina elementos de la ruta física y la digital. El vendedor puede iniciar el contacto con el cliente a través de medios virtuales y, en una fase posterior, concretar una visita presencial. Esta estrategia permite aprovechar lo mejor de ambos mundos, generando un equilibrio entre la eficiencia digital y la cercanía del contacto físico.
-            p.mb-0 Las rutas mixtas son útiles en procesos de venta consultiva, donde es importante identificar necesidades por medios remotos y luego cerrar acuerdos en persona (Blythe, 2012).
+            p.mb-2.p-movil Combina elementos de la ruta física y la digital. El vendedor puede iniciar el contacto con el cliente a través de medios virtuales y, en una fase posterior, concretar una visita presencial. Esta estrategia permite aprovechar lo mejor de ambos mundos, generando un equilibrio entre la eficiencia digital y la cercanía del contacto físico.
+            p.mb-0.p-movil Las rutas mixtas son útiles en procesos de venta consultiva, donde es importante identificar necesidades por medios remotos y luego cerrar acuerdos en persona (Blythe, 2012).
       
 
     .row
@@ -226,7 +226,7 @@
                 h4.text-white.bg-07.w-content.p-2.mx-auto Fase 4
             h5.text-center.mb-0 Cierre
             p.text-center.mb-0 Luego de resolver algunas dudas sobre el mantenimiento y la garantía, el propietario de Montebello acepta la propuesta. Se firma el contrato y se programa la instalación para el mes siguiente.
-      .col-md-5.col-lg-4.col-6
+      .col-md-5.col-lg-4
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema6/img_16.png", alt="alt").img400.mx-auto.w-75-movil
 
@@ -236,7 +236,7 @@
         p Este caso muestra cómo una venta consultiva, con enfoque en las necesidades del cliente y la sostenibilidad, puede recorrer todo el proceso estructurado de forma efectiva.
         .tarjeta.bg-fondo-1.p-4
           .row.justify-content-center.align-items-center
-            .col-md-4.col-lg-4.col-6
+            .col-md-4.col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema6/img_21.png', alt='Imagen decorativa').mx-auto.w-75-movil
             .col-lg-8

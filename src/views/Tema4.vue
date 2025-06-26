@@ -8,7 +8,7 @@
       h1 Objetivos de venta
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-      .col-md-10.col-lg-10.mb-4
+      .col-md-12.col-lg-10.mb-4
 
         .row.p-0.g-0
           .col-12.mx-auto
@@ -21,7 +21,7 @@
 
         separador
 
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_4_1 4.1 Definición
 
         .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
@@ -31,7 +31,7 @@
           .col-lg-8.mb-4
             p Las estrategias de venta son los enfoques, métodos y tácticas que los vendedores emplean para atraer la atención del cliente, generar su interés, influir en su decisión de compra y asegurar una venta exitosa. Estas estrategias pueden ajustarse dependiendo del tipo de cliente, del producto o servicio ofrecido y del entorno del mercado. Su adecuada implementación puede ser determinante para convertir una venta ocasional en una relación comercial a largo plazo.
 
-          .col-lg-2.col-md-5.mb-4.col-6
+          .col-lg-2.col-md-5.mb-4
             figure
               img(src='@/assets/curso/temas/tema4/img_03.svg', alt='Imagen decorativa').mx-auto
 
@@ -40,7 +40,7 @@
 
         separador
 
-        .titulo-segundo.color-acento-contenido
+        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2#t_4_2 4.2 Tipos
 
         .row.justify-content-center.align-items-center.my-3(data-aos="zoom-in")
