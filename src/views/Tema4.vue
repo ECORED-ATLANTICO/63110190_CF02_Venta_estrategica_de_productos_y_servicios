@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Objetivos de venta
+      h1 Estrategias de venta
 
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-md-12.col-lg-10.mb-4
@@ -55,14 +55,14 @@
           .col-md-12.col-lg-12
             .titulo-sexto.mb-4
               h5 Tabla 4. 
-              span.text-dark
-                i Tipos de estrategias de venta en el servicio al cliente
+              span.text-dark Tipos de estrategias de venta en el servicio al cliente
 
             .morado
               .tabla-a
                 table
                   caption
-                    strong Fuente: Kotler, P., & Armstrong, G. (2017).
+                    b Fuente: 
+                    | Kotler, P., & Armstrong, G. (2017).
                   thead
                     tr
                       th.bg-color-4.text-white Tipo de Estrategia
@@ -96,7 +96,7 @@
           h2#t_4_3 4.3	Criterios de aplicación
 
         .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-          .col-lg-3.col-md-8.mb-4.col-8
+          .col-lg-3.col-md-8.mb-4.col-12
             figure
               img(src='@/assets/curso/temas/tema4/img_04.svg', alt='Imagen decorativa')
           .col-lg-9.mb-4
@@ -107,23 +107,25 @@
           .col-md-12.col-lg-12.mb-3
             .titulo-sexto.mb-4
               h5 Tabla 5. 
-              span.text-dark
-                i Adaptación de las técnicas de venta según cliente
+              span.text-dark Adaptación de las técnicas de venta según cliente
 
             .tabla-a.tabla_verde
               table
                 caption
-                  strong Fuente: adaptado Kotler, P., & Keller, K. L. (2016).
+                  b Fuente: 
+                  | adaptado Kotler, P., & Keller, K. L. (2016).
                 thead
                   tr
                     th.bg-color-4.text-dark Tipo de estrategia
-                    th.bg-color-4.text-dark Criterios de Aplicación
+                    th.bg-color-4.text-dark Criterios de aplicación
                     th.bg-color-4.text-dark Cuándo aplicar
                 tbody
                   tr
                     td.text-left Venta consultiva
                     td.text-left
-                      | Ideal para clientes que buscan soluciones personalizadas y tienen necesidades complejas. Es más común en ventas B2B (business to business) o en productos y servicios técnicos. El vendedor actúa como un asesor, realizando preguntas para identificar las necesidades del cliente y luego ofrecer una solución específica.
+                      | Ideal para clientes que buscan soluciones personalizadas y tienen necesidades complejas. Es más común en ventas B2B 
+                      i (business to business) 
+                      | o en productos y servicios técnicos. El vendedor actúa como un asesor, realizando preguntas para identificar las necesidades del cliente y luego ofrecer una solución específica.
                     td.text-left
                       | - Clientes con necesidades específicas o problemas complejos.
                       br
@@ -133,7 +135,9 @@
                   tr
                     td.text-left Venta transaccional
                     td.text-left
-                      | Se enfoca en la venta rápida y directa de productos. Es común en entornos B2C (business to consumer) y en productos de bajo costo o de uso común.
+                      | Se enfoca en la venta rápida y directa de productos. Es común en entornos B2C 
+                      i (business to consumer) 
+                      | y en productos de bajo costo o de uso común.
                     td.text-left
                       | - Clientes que buscan una compra rápida, sin mucha investigación o discusión.
                       br

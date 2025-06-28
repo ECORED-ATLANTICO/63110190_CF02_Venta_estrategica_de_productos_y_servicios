@@ -29,7 +29,7 @@
         p El servicio al cliente se entiende como el conjunto de actividades, comportamientos y actitudes que una empresa ofrece para satisfacer las necesidades y expectativas de sus clientes. Es un factor crucial para el éxito de cualquier negocio, ya que un buen servicio puede fidelizar a los clientes y generar recomendaciones, mientras que un mal servicio puede perjudicar la reputación de la empresa.
 
         .cajon.bg-03.p-4
-          p.mb-0 Cada tipo de <em>merchandising</em> responde a un objetivo particular. Por ejemplo, el <em>merchandising</em> visual busca captar la atención inicial del cliente, mientras que el estratégico tiene como finalidad aumentar la eficiencia del punto de venta basándose en el comportamiento del consumidor.
+          p.mb-0 El servicio al cliente va más allá del momento de la compra, ya que también abarca la etapa de postventa, donde se brinda apoyo mediante la atención de quejas, respuestas a consultas, solución de inconvenientes y seguimiento continuo. Según Zeithaml, Bitner y Gremler (2017), el servicio al cliente implica una relación de intercambio en la que el cliente recibe valor agregado para que la empresa pueda garantizar la satisfacción y fidelidad del cliente a lo largo del tiempo.
 
       .col-md-12.col-sm-12.mx-auto
         .tarjeta.bg_azul.mb-5.p-3
@@ -38,7 +38,9 @@
               .row.justify-content-center.align-items-center.my-lg-4.p-4
                 .col-md-12.col-lg-3.mb-4
                   h5 Ejemplo 1
-                  p.mb-0 Una tienda <em>online</em> permite realizar devoluciones sin complicaciones, ofrece respuestas rápidas por chat y hace seguimiento personalizado para asegurar que el cliente quede satisfecho con su compra.
+                  p.mb-0 Una tienda <em>online</em> permite realizar devoluciones sin complicaciones, ofrece respuestas rápidas por 
+                  i chat 
+                  | y hace seguimiento personalizado para asegurar que el cliente quede satisfecho con su compra.
                 .col-md-12.col-lg-9.mb-4.mb-md-0
                   figure
                     img(src='@/assets/curso/temas/tema1/img_03.png', alt='Imagen Decorativa')
@@ -80,7 +82,9 @@
 
         .tabla-a.tabla_verde
           table
-            caption <strong>Fuente:</strong> adaptado ecosistema SENA, 2025.
+            caption 
+              b Fuente: 
+              | adaptado ecosistema SENA, 2025.
             thead
               tr
                 th.text-dark.w-10 Etapa
@@ -90,38 +94,38 @@
               tr
                 td.text-left Preventa
                 td.text-left
-                  | - Identificación de necesidades del cliente
+                  | - Identificación de necesidades del cliente.
                   br
-                  | - Presentación inicial del producto o servicio
+                  | - Presentación inicial del producto o servicio.
                   br
-                  | - Entrega de información clara y útil
+                  | - Entrega de información clara y útil.
                   br
-                  | - Generación de confianza sin presión de compra
+                  | - Generación de confianza sin presión de compra.
                 td.text-left Crear interés en el cliente, posicionar la solución que se ofrece y construir una relación inicial basada en la confianza.
               tr
                 td.text-left Venta
                 td.text-left
-                  | - Atención personalizada y eficiente
+                  | - Atención personalizada y eficiente.
                   br
-                  | - Demostración del producto (si aplica)
+                  | - Demostración del producto (si aplica).
                   br
-                  | - Resolución de dudas en tiempo real
+                  | - Resolución de dudas en tiempo real.
                   br
-                  | - Gestión rápida y clara del proceso de pago y entrega
+                  | - Gestión rápida y clara del proceso de pago y entrega.
                 td.text-left Facilitar la toma de decisiones, cerrar la venta de manera positiva y asegurar una experiencia de compra satisfactoria.
               tr
                 td.text-left Postventa
                 td.text-left
-                  | - Confirmación de entrega y funcionamiento del producto o servicio
+                  | - Confirmación de entrega y funcionamiento del producto o servicio.
                   br
-                  | - Resolución de inconvenientes
+                  | - Resolución de inconvenientes.
                   br
-                  | - Solicitud de retroalimentación
+                  | - Solicitud de retroalimentación.
                   br
-                  | - Ofrecimiento de servicios adicionales o nuevas ofertas
+                  | - Ofrecimiento de servicios adicionales o nuevas ofertas.
                 td.text-left Asegurar la satisfacción del cliente, fortalecer la relación comercial y fomentar la recompra o recomendación.
 
-      .col-md-4.col-lg-3.mt-auto.mb-3.arriba.col-4
+      .col-md-4.col-lg-3.mt-auto.mb-3.arriba.col-10
         figure
           img(src='@/assets/curso/temas/tema1/img_06.png', alt='Imagen decorativa').mx-auto
 
@@ -158,7 +162,7 @@
 
           figcaption 
             b Fuente: 
-            |  Adaptado ecosistema SENA, 2025.
+            | SENA, 2025.
 
     separador
 
@@ -170,9 +174,7 @@
         .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
           .col-lg-12
             .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.color-acento-contenido
-              .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_09.png')})`}"
-              )
+              .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_09.png')})`,'background-position': 'left center','background-repeat': 'no-repeat','background-size': 'cover'}")
               .bloque-texto-g__texto.p-4
                 p Las estrategias de servicio al cliente se diseñan para mejorar la interacción con el cliente, aumentar su satisfacción y fidelización. Algunas de las principales estrategias incluyen:
 
@@ -246,7 +248,7 @@
 
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-12.col-lg-8.mb-4
-                    h5 Escucha activa 
+                    h5 Lenguaje positivo 
                     p.mb-2 El lenguaje positivo consiste en utilizar expresiones amables y propositivas que favorecen un ambiente cordial y colaborativo. Frases como “será un placer ayudarle” o “buscaremos la mejor solución posible” transmiten profesionalismo y disposición, lo que mejora la experiencia del cliente y reduce posibles tensiones.
                     p.mb-2 Además, enfocar la comunicación en soluciones en lugar de problemas permite mantener una actitud proactiva. Según Kotler y Keller (2016), un trato cordial influye significativamente en la percepción del valor del servicio.
                     p.mb-0 Ejemplos incluyen reemplazar respuestas negativas como “no se puede” por afirmaciones enfocadas en alternativas, o agradecer la paciencia del cliente mientras se resuelve su solicitud.
@@ -258,7 +260,7 @@
                   
                 .row.justify-content-center.align-items-center.my-lg-4.p-4
                   .col-md-12.col-lg-8.mb-4
-                    h5 Escucha activa 
+                    h5 Empatía
                     p.mb-2 La empatía implica comprender y conectar emocionalmente con otra persona, reconociendo sus sentimientos sin emitir juicios. En el contexto del servicio al cliente, se expresa al reconocer las emociones del usuario y responder con respeto y comprensión.
                     p.mb-2 Ser empático no implica estar necesariamente de acuerdo, sino validar la experiencia del cliente y mostrar disposición para ayudar. Como señala Goleman (2006), la empatía es una habilidad fundamental de la inteligencia emocional y clave para establecer relaciones humanas efectivas.
                     p.mb-0 Ejemplos prácticos incluyen reconocer la molestia de un cliente y asegurar que se buscará una solución, o brindar apoyo paciente a alguien que enfrenta dificultades con un servicio o herramienta.

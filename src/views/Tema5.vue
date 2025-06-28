@@ -55,7 +55,9 @@
                 
               .row.justify-content-center.align-items-center.my-lg-4.p-4
                 .col-md-12.col-lg-4.mb-4
-                  h5 Up-selling (venta adicional)	
+                  h5 
+                  i Up-selling 
+                  | (venta adicional)	
                   p.mb-0 El objetivo es incentivar al cliente a adquirir una versión superior del producto o servicio que inicialmente desea comprar. Esta técnica es útil para aumentar el valor promedio de venta, siempre que la propuesta sea percibida como una mejora relevante. (Jobber & Lancaster, 2017)
 
                 .col-md-12.col-lg-8.mb-4.mb-md-0
@@ -72,7 +74,9 @@
         figure
           img(src='@/assets/curso/temas/tema5/img_04.svg', alt='Imagen decorativa').mx-auto
       .col-lg-10.mb-4
-        p En el mundo comercial, aplicar la técnica adecuada en el momento oportuno puede marcar la diferencia entre una venta ocasional y una relación comercial duradera. Por eso, es clave entender cuándo aplicar estrategias como la venta en frío o el up-selling, ya que cada una responde a contextos y objetivos distintos. Mientras una apunta a captar nuevos clientes desde cero, la otra busca maximizar el valor de quienes ya están interesados. A continuación, exploramos en qué escenarios resulta más efectiva cada una.
+        p En el mundo comercial, aplicar la técnica adecuada en el momento oportuno puede marcar la diferencia entre una venta ocasional y una relación comercial duradera. Por eso, es clave entender cuándo aplicar estrategias como la venta en frío o el 
+          i up-selling, 
+          | ya que cada una responde a contextos y objetivos distintos. Mientras una apunta a captar nuevos clientes desde cero, la otra busca maximizar el valor de quienes ya están interesados. A continuación, exploramos en qué escenarios resulta más efectiva cada una.
 
     .row.justify-content-center.mb-5
       .bg-fondo-5.col-lg-10
@@ -101,8 +105,7 @@
       .col-lg-10.mb-4
         .titulo-sexto.mb-4
           h5 Figura 2. 
-          span.text-dark
-            i Técnicas de venta y su aplicabilidad 
+          span.text-dark Técnicas de venta y su aplicabilidad 
 
         figure.mb-4
           figure.mb-3
@@ -111,7 +114,7 @@
 
           figcaption 
             b Fuente: 
-            |  Adaptado ecosistema SENA, 2025.
+            |  adaptado ecosistema SENA, 2025.
 </template>
 
 <script>

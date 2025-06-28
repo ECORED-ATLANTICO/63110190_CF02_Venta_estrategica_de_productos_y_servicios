@@ -12,7 +12,7 @@
         div.tarjeta-horz.mb-3
           img(src='@/assets/curso/temas/tema3/img_01.png', alt='Imagen decorativa')
           div.texto-tarjeta
-            p.mb-0 En el proceso de interacción entre una empresa y sus clientes, se pueden identificar distintos momentos clave que influyen directamente en la percepción que el cliente desarrolla sobre la marca. Estos momentos se agrupan, principalmente, en momentos de contacto y momentos de experiencia. A continuación, se incluyen ejemplos en formato de tabla para clarificar cada categoría con ejemplos:
+            p.mb-0 Un objetivo es una meta que se establece para ser alcanzada en un plazo determinado. Es un rutero que orienta las acciones hacia un propósito claro. En cualquier ámbito tanto personal, académico o laboral, los objetivos sirven para organizar los esfuerzos, tomar decisiones acertadas y evaluar el progreso. Sin objetivos definidos, es difícil saber si se avanza o se retrocede.
 
 
     separador
@@ -24,10 +24,10 @@
           h2#t_3_1 3.1 Concepto
       
         .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
-          .col-lg-4.col-md-8.mb-4
+          .col-lg-5.col-md-8.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img_02.png', alt='Imagen decorativa')
-          .col-lg-8.mb-4
+          .col-lg-7.mb-4
             p Los objetivos de venta son metas específicas que una empresa o equipo comercial define con el propósito de orientar sus esfuerzos y evaluar su desempeño. Estas metas permiten establecer un rumbo claro, facilitar la toma de decisiones y ajustar las estrategias según los resultados obtenidos. 
 
             .cajon.bg-03.p-4
@@ -68,13 +68,13 @@
           .col-md-12.col-lg-12
             .titulo-sexto.mb-4
               h5 Tabla 3. 
-              span.text-dark
-                i Tipos de objetivo 
+              span.text-dark Tipos de objetivo 
 
             .tabla-a.tabla_verde
               table
                 caption
-                  strong Fuente: adaptado de Kotler, P., & Keller, K. L. (2016).
+                  strong Fuente: 
+                  | adaptado de Kotler, P., & Keller, K. L. (2016).
                 thead
                   tr
                     th.bg-color-4.text-dark.w-10 Tipo de objetivo

@@ -48,14 +48,14 @@
       .col-md-12.col-lg-9
         .titulo-sexto.mb-4
           h5 Tabla 2. 
-          span.text-dark
-            i Tipos de momento de verdad 
+            span.text-dark Tipos de momento de verdad 
 
         .morado
           .tabla-a
             table
               caption
-                strong Fuente: adaptado ecosistema SENA, 2025.
+                b Fuente: 
+                | adaptado Kotler & Keller (2021) Ecosistema SENA (2025)
               thead
                 tr
                   th.text-white.w-22 Tipo

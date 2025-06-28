@@ -88,8 +88,7 @@
       .col-lg-10.mb-4
         .titulo-sexto.mb-4
           h5 Figura 3. 
-          span.text-dark
-            i Proceso de venta 
+          span.text-dark Proceso de venta 
 
         figure.mb-4
           figure.mb-3
@@ -169,8 +168,7 @@
       .col-lg-10.mb-4
         .titulo-sexto.mb-4
           h5 Figura 4. 
-          span.text-dark
-            i Características de una ruta de venta efectiva 
+          span.text-dark Características de una ruta de venta efectiva 
 
         figure.mb-4
           figure.mb-3
@@ -244,7 +242,7 @@
               
               TarjetaAudio.color-primario.mb-3(
                 texto="Charlas que venden  "
-                :audio="require('@/assets/curso/temas/tema6/ejemplo.mp3')"
+                :audio="require('@/assets/curso/podcast/CF02_63110190_Venta_estrategica_de_productos_y_servicios.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
