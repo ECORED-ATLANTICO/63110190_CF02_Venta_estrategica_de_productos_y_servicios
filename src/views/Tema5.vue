@@ -109,8 +109,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema5/img_05.svg', alt='Texto que describa la imagen').mx-auto.mostrar
-            img(src='@/assets/curso/temas/tema5/img_06.svg', alt='Texto que describa la imagen').mx-auto.ocultar
+            img(src='@/assets/curso/temas/tema5/img_05.svg', alt='Texto alternativo').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema5/img_06.svg', alt='Texto alternativo').mx-auto.ocultar
 
           figcaption 
             b Fuente: 
