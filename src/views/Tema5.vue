@@ -113,8 +113,8 @@
             img(src='@/assets/curso/temas/tema5/img_06.svg', alt='Texto alternativo').mx-auto.ocultar
 
           figcaption 
-            b Fuente: 
-            |  adaptado ecosistema SENA, 2025.
+            b Nota. 
+            |  Adaptado ecosistema SENA, 2025.
 </template>
 
 <script>

@@ -73,8 +73,8 @@
             .tabla-a.tabla_verde
               table
                 caption
-                  strong Fuente: 
-                  | adaptado de Kotler, P., & Keller, K. L. (2016).
+                  strong Nota. 
+                  | Adaptado de Kotler, P., & Keller, K. L. (2016).
                 thead
                   tr
                     th.bg-color-4.text-dark.w-10 Tipo de objetivo

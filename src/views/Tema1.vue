@@ -83,8 +83,8 @@
         .tabla-a.tabla_verde
           table
             caption 
-              b Fuente: 
-              | adaptado ecosistema SENA, 2025.
+              b Nota.
+              | Adaptado ecosistema SENA, 2025.
             thead
               tr
                 th.text-dark.w-10 Etapa

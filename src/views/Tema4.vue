@@ -112,8 +112,8 @@
             .tabla-a.tabla_verde
               table
                 caption
-                  b Fuente: 
-                  | adaptado Kotler, P., & Keller, K. L. (2016).
+                  b Nota. 
+                  | Adaptado Kotler, P., & Keller, K. L. (2016).
                 thead
                   tr
                     th.bg-color-4.text-dark Tipo de estrategia
