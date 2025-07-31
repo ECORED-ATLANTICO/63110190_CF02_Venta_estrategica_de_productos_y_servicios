@@ -61,8 +61,8 @@
               .tabla-a
                 table
                   caption
-                    b Fuente: 
-                    | Kotler, P., & Armstrong, G. (2017).
+                    b Nota: 
+                    | Adaptado de Kotler, P., & Keller, K. L. (2016).
                   thead
                     tr
                       th.bg-color-4.text-white Tipo de Estrategia
@@ -82,7 +82,7 @@
                       td.text-left Estrategia que apela a los sentimientos del cliente para generar un vínculo emocional con el producto, destacando beneficios personales o sociales.
                       td.text-left Un vendedor que resalta cómo el uso del producto puede contribuir a una vida más feliz y armoniosa en el hogar.
                     tr.bg-color-5
-                      td.text-left Venta cruzada (cross-selling)
+                      td.text-left Venta cruzada <em>(Cross-selling)</em>
                       td.text-left Estrategia enfocada en incrementar el valor total de la compra sugiriendo productos adicionales que complementen la elección inicial del cliente.
                       td.text-left Un vendedor que, al vender un celular, sugiere también comprar un protector y unos audífonos.
                     tr.bg-color-5
@@ -155,7 +155,7 @@
                       br
                       | - Contextos donde la relación emocional con la marca o el producto es crucial, por ejemplo, moda, joyería y viajes.
                   tr
-                    td.text-left Venta cruzada (Cross-selling)
+                    td.text-left Venta cruzada <em>(Cross-selling)</em>
                     td.text-left
                       | Implica sugerir artículos relacionados o complementarios a la compra principal del cliente, con el fin de ampliar su pedido y mejorar su experiencia.
                     td.text-left

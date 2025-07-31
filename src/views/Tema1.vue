@@ -83,7 +83,7 @@
         .tabla-a.tabla_verde
           table
             caption 
-              b Nota.
+              b Nota. 
               | Adaptado ecosistema SENA, 2025.
             thead
               tr

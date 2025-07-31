@@ -55,7 +55,7 @@
             table
               caption
                 b Nota. 
-                | Adaptado Kotler & Keller (2021) Ecosistema SENA (2025).
+                | Adaptado Kotler & Keller (2021) y del Ecosistema SENA (2025). 
               thead
                 tr
                   th.text-white.w-22 Tipo

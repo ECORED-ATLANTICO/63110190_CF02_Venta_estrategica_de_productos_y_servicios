@@ -131,7 +131,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF02_63110190_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -149,14 +149,14 @@ export default {
     {
       tema: 'Servicio al cliente',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Tipos de venta [Video]. YouTube.',
+        '<em>Ecosistema de Recursos Educativos Digitales SENA. (2021). Tipos de venta</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WUfnXYuQHXI',
     },
     {
       tema: 'Estrategias de ventas',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021). Estrategias de venta [Video]. YouTube.',
+        '<em>Ecosistema de Recursos Educativos Digitales SENA. (2021). Estrategias de venta</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=O_uQYV8rZ3k',
     },
@@ -280,7 +280,7 @@ export default {
     },
     {
       referencia:
-        'Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988). SERVQUAL: A multiple‑item scale for measuring consumer perceptions of service quality. <em>Journal of Retailing</em>, 64(1), 12–40.',
+        'Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988). SERVQUAL:<em> A multiple‑item scale for measuring consumer perceptions of service quality. <em>Journal of Retailing</em>, 64(1), 12–40.</em>',
       link:
         'https://www.researchgate.net/publication/200827786_SERVQUAL_A_Multiple-item_Scale_for_Measuring_Consumer_Perceptions_of_Service_Quality',
     },

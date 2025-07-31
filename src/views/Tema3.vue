@@ -82,7 +82,7 @@
                     th.bg-color-4.text-dark Descripción
                 tbody
                   tr
-                    td.text-left(rowspan="3") CUANTITATIVO
+                    td.text-left(rowspan="3") Cuantitativo
                     td.text-left Incrementar las ventas en un 20 %.
                     td.text-left Medir el éxito mediante resultados numéricos claros.
                   tr
@@ -93,7 +93,7 @@
                     td.text-left Se centra en alcanzar un volumen específico de ventas.
                   
                   tr
-                    td.text-left(rowspan="3") CUALITATIVO
+                    td.text-left(rowspan="3") Cualitativo
                     td.text-left Mejorar la satisfacción del cliente en un 20 %.
                     td.text-left Dirigido a comprender cómo el cliente vive e interpreta su relación con la marca.
                   tr

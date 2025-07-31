@@ -114,7 +114,7 @@
 
           figcaption 
             b Nota. 
-            |  Adaptado ecosistema SENA, 2025.
+            |  SENA, 2025. 
 </template>
 
 <script>
