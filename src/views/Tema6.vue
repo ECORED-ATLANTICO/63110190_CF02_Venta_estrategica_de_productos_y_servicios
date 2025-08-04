@@ -238,7 +238,7 @@
               figure
                 img(src='@/assets/curso/temas/tema6/img_21.png', alt='Imagen decorativa').mx-auto.w-75-movil
             .col-lg-8
-              p.mb-5 Lo invitamos a escuchar el podcast “Charlas que venden” con el episodio “La ruta de venta efectiva”, donde el instructor Carlos y el aprendiz Kevin te enseñan, con humor y ejemplos prácticos, cómo planificar y ejecutar una ruta de ventas que realmente da resultados. ¡Aprende y diviértete mientras fortaleces tus habilidades comerciales!
+              p.mb-5 Lo invitamos a escuchar el podcast “Charlas que venden” con el episodio “La ruta de venta efectiva”, donde la instructora Carolina y el aprendiz Kevin te enseñan, con humor y ejemplos prácticos, cómo planificar y ejecutar una ruta de ventas que realmente da resultados. ¡Aprende y diviértete mientras fortaleces tus habilidades comerciales!
               
               TarjetaAudio.color-primario.mb-3(
                 texto="Charlas que venden  "
