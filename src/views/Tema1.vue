@@ -142,7 +142,7 @@
               .col
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0
-                    h4.mb-1 Ir a los videos con tema portafolio de ventas:
+                    h4.mb-1 Ir a los videos con tema Tipos de ventas:
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=WUfnXYuQHXI" target="_blank")
                       span Ver Video
@@ -157,8 +157,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema1/img_08.svg', alt='Texto alternativo').mx-auto.mostrar
-            img(src='@/assets/curso/temas/tema1/img_08_0.svg', alt='Texto alternativo').mx-auto.ocultar
+            img(src='@/assets/curso/temas/tema1/img_08.svg', alt='En la figura 1 se describen acciones a desarrollar en el  ciclo del servicio al cliente de la siguiente manera: Preventa: detectar necesidades, presentar solución, informar, generar confianza. Venta: atender, demostrar, resolver dudas, gestionar pago/entrega. Postventa: confirmar entrega, solucionar problemas, recibir feedback, ofrecer más.').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema1/img_08_0.svg', alt='En la figura 1 se describen acciones a desarrollar en el  ciclo del servicio al cliente de la siguiente manera: Preventa: detectar necesidades, presentar solución, informar, generar confianza. Venta: atender, demostrar, resolver dudas, gestionar pago/entrega. Postventa: confirmar entrega, solucionar problemas, recibir feedback, ofrecer más.').mx-auto.ocultar
 
           figcaption 
             b Fuente: 

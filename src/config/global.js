@@ -149,14 +149,14 @@ export default {
     {
       tema: 'Servicio al cliente',
       referencia:
-        '<em>Ecosistema de Recursos Educativos Digitales SENA. (2021). Tipos de venta</em> [Video]. YouTube.',
+        '<em>Ecosistema de Recursos Educativos Digitales SENA. (2021). Tipos de ventas</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WUfnXYuQHXI',
     },
     {
       tema: 'Estrategias de ventas',
       referencia:
-        '<em>Ecosistema de Recursos Educativos Digitales SENA. (2021). Estrategias de venta</em> [Video]. YouTube.',
+        '<em>Ecosistema de Recursos Educativos Digitales SENA. (2021). Estrategias de ventas</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=O_uQYV8rZ3k',
     },

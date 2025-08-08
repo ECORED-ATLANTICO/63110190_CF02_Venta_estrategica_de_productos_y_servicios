@@ -186,7 +186,7 @@
                   .col
                     .row.justify-content-between.align-items-center
                       .col.mb-3.mb-sm-0
-                        h4.mb-1 Ir al video estrategias de venta: 
+                        h4.mb-1 Ir al video estrategias de ventas: 
                       .col-sm-auto
                         a.boton.color-acento-botones(href=" https://www.youtube.com/watch?v=O_uQYV8rZ3k" target="_blank")
                           span Ver Video

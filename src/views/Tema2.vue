@@ -23,7 +23,7 @@
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in")
       .col-lg-9.mb-4
-        p Los momentos de verdad son aquellos puntos de contacto entre el cliente y la empresa donde se define la percepción que el cliente tiene de la marca o servicio. Estos momentos son clave para la construcción de la relación con el cliente y pueden ser tanto positivos como negativos, dependiendo de cómo se manejen.
+        p Los momentos de verdad son aquellos puntos de contacto entre el cliente y la empresa donde se define la percepción que el cliente tiene de la marca o servicio. Estos momentos son claves para la construcción de la relación con el cliente y pueden ser tanto positivos como negativos, dependiendo de cómo se manejen.
 
         p Ladhari (2009) sugiere que los momentos de verdad son fundamentales para establecer una relación de confianza y satisfacción con el cliente. Cada vez que un cliente interactúa con la empresa, se crea una oportunidad para fortalecer su lealtad o perderla.
         

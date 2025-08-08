@@ -92,8 +92,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema6/img_09.svg', alt='Texto que describa la imagen').mx-auto.mostrar
-            img(src='@/assets/curso/temas/tema6/img_10.svg', alt='Texto que describa la imagen').mx-auto.ocultar
+            img(src='@/assets/curso/temas/tema6/img_09.svg', alt='En la figura 3 se describen las fases clave del proceso de venta, las cuales son:prospección, calificación, presentación y cierre.').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema6/img_10.svg', alt='En la figura 3 se describen las fases clave del proceso de venta, las cuales son:prospección, calificación, presentación y cierre.').mx-auto.ocultar
 
           figcaption 
             b Fuente: 
@@ -172,8 +172,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema6/img_15.svg', alt='Texto que describa la imagen').mx-auto.mostrar
-            img(src='@/assets/curso/temas/tema6/img_16.svg', alt='Texto que describa la imagen').mx-auto.ocultar
+            img(src='@/assets/curso/temas/tema6/img_15.svg', alt='En la figura 4 se describen las características de una ruta de ventas efectiva, la cual debe ser planificado, flexible, rentable, focalizada y medible.').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema6/img_16.svg', alt='En la figura 4 se describen las características de una ruta de ventas efectiva, la cual debe ser planificado, flexible, rentable, focalizada y medible.').mx-auto.ocultar
 
           figcaption 
             b Fuente: 

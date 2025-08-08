@@ -56,8 +56,8 @@
               .row.justify-content-center.align-items-center.my-lg-4.p-4
                 .col-md-12.col-lg-4.mb-4
                   h5 
-                  i Up-selling 
-                  | (venta adicional)	
+                    i Up-selling 
+                    | (venta adicional)	
                   p.mb-0 El objetivo es incentivar al cliente a adquirir una versión superior del producto o servicio que inicialmente desea comprar. Esta técnica es útil para aumentar el valor promedio de venta, siempre que la propuesta sea percibida como una mejora relevante. (Jobber & Lancaster, 2017)
 
                 .col-md-12.col-lg-8.mb-4.mb-md-0
@@ -109,8 +109,8 @@
 
         figure.mb-4
           figure.mb-3
-            img(src='@/assets/curso/temas/tema5/img_05.svg', alt='Texto alternativo').mx-auto.mostrar
-            img(src='@/assets/curso/temas/tema5/img_06.svg', alt='Texto alternativo').mx-auto.ocultar
+            img(src='@/assets/curso/temas/tema5/img_05.svg', alt='En la figura 2 se describe de forma básica: cuándo y cuál tipo de técnica aplicar?•Venta en frío:Contacto sin interés previo.Útil para ampliar cartera de clientes.Sectores: seguros, servicios financieros, ventas puerta a puerta.•Up-selling (venta adicional):Ofrecer versión superior del producto.Aumenta el valor de la venta.Sectores: tecnología, turismo, vehículos, servicios.').mx-auto.mostrar
+            img(src='@/assets/curso/temas/tema5/img_06.svg', alt='En la figura 2 se describe de forma básica: cuándo y cuál tipo de técnica aplicar?•Venta en frío:Contacto sin interés previo.Útil para ampliar cartera de clientes.Sectores: seguros, servicios financieros, ventas puerta a puerta.•Up-selling (venta adicional):Ofrecer versión superior del producto.Aumenta el valor de la venta.Sectores: tecnología, turismo, vehículos, servicios.').mx-auto.ocultar
 
           figcaption 
             b Nota. 

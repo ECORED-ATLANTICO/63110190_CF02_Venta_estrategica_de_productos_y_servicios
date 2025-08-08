@@ -13,7 +13,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La figura muestra un diagrama de flujo en donde se ilustra la comercialización de productos y servicios. Éste incluye aspectos como el servicio al cliente, los momentos de verdad, y los objetivos de ventas. También se refiere a las estrategias de venta, sus técnicas y el proceso de venta en sí. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
