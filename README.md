@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+https://ecored-atlantico.github.io/63110190_CF02_Venta_estrategica_de_productos_y_servicios/#/
 
 #
 
