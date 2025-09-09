@@ -23,7 +23,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar la comprensión de los conceptos teóricos de comercialización de productos y servicios, estrategias, fases y su aplicabilidad en el punto de venta.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
